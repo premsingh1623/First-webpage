@@ -1,0 +1,281 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+#logo{
+    margin: 5px 100px;
+}
+#logo img{
+    margin: 4px 60px;
+    height: 100px;
+    width: 100px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(58, 10, 10);
+    transition-duration: 0.3s;
+    
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color:rgb(58, 10, 10);
+    
+}
+.no{
+    color: rgba(97, 24, 24, 0.993);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    margin-bottom: 50px;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../Picture/back.jpg') center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+#home h1{
+    text-align: center;
+}
+#home p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.primary{
+    font-size: 3.8rem;
+    padding: 50px;
+}
+.secondary{
+    font-size: 2.1rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 25px;
+    color: rgb(117, 8, 72);
+    border: 3px solid rgb(19, 3, 109);
+    margin: 50px;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-family:'Courier New', Courier, monospace;
+}
+.btn:hover{
+    background-color:rgb(19, 3, 109);
+    color:white;
+}
+.center{
+    text-align: center;
+    color: rgb(66, 63, 63);
+}
+#services{
+    margin: 0px 180px;
+    display: flex;
+    height: 900px;
+}
+#services .box{
+    
+    padding: 30px 50px;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+.box p{
+    font-size: 1.1rem;
+}
+#serve{
+    margin: 0px 180px;
+    display: flex;
+    height: 600px;
+}
+#serve .box{
+    
+    padding: 3px 5px;
+}
+#serve .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.prim{
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    color: #c9aa5d;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.serve-container p{
+    text-align: center;
+    margin: 10px 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.tertiary{
+    font-size: 1.7rem;
+}
+.serve-container {
+    background-color:#ddd;
+}
+#para{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#client-section {
+    height: 450px;
+    background-color: #cfece2;
+}
+
+#client-section h1{
+    padding-top: 100px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 124px;
+}
+.client-item{
+    padding: 10px;
+}
+#contact{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#contact h1{
+    padding-top: 100px;
+}
+footer{
+    background: rgb(242 247 230);
+    padding: 5px 20px;
+}
+footer i{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+footer a{
+    float: right;
+    text-decoration: none;
+    color: #295c0c;
+}
+a i{
+    padding: 5px;
+}
+.address{
+    display: flex;
+}
+.address .box1{
+    padding: 0px 10px;
+}
+.address p{
+    text-align: left;
+    margin: 10px 50px;
+    padding: 0px 30px;
+    
+}
+#contact-box{
+    padding-bottom: 34px;
+    padding-left: 100px;
+    
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+
+}
+#contact-box label{
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 230px;
+    border: none;
+    color: #3d0713;
+}
+.button:hover{
+    color: whitesmoke;
+    background-color: #3d0713;
+    transition-duration: 0.3s;
+}
+hr{
+    margin-bottom: 20px;
+}
+iframe{
+    height: 600px;
+    width: 98%;
+    margin: 20px 0px;
+    padding: 10px 10px;
+}
+.bottom{
+    padding-top: 50px;
+}
+.box1{
+    margin: 50px;
+}
+.box1 h2{
+    font-size: 1.3rem;
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+}
